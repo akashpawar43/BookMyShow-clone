@@ -1,0 +1,217 @@
+footer{
+    background-color: rgb(51, 51, 56);
+}
+
+.footer-div {
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-pack: start;
+    justify-content: start;
+    -webkit-box-align: start;
+    align-items: start;
+    height: auto;
+    overflow: visible;
+    color: rgb(153, 153, 153);
+    width: 100%;
+    max-width: 1280px;
+    margin: 0px 9vw;
+}
+
+.movies-foot {
+    width: 100%;
+    padding-top: 25px;
+}
+
+.movie-title {
+    font-size: 12px;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    margin: 0px 0px 20px;
+    color: rgb(165, 165, 165);
+}
+
+.all-movie {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.all-movie-name {
+    font-size: 11px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    transition: color 0.25s ease-in-out 0s;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+}
+
+a {
+    background: transparent;
+    vertical-align: baseline;
+}
+
+.footer-contact{
+    height: 30vh;
+}
+
+.foot-hut{
+    height: 7vh;
+    background-color: rgb(51, 51, 56);
+    padding: 2vh 0;
+    margin: 0 9vw;
+}
+.foot-img{
+    height: 6vh;
+    width: 3vw;
+    margin-top: 1vh;
+}
+#footer-hut{
+    height: 4.8vh;
+}
+.foot-text{
+    display: flex;
+    margin-top: -4.8vh;
+    margin-left: 3vw;
+}
+#foot-text11{
+    font-size: 2.3vh;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#foot-text12{
+    font-size: 2.3vh;
+    text-decoration: none;
+    color: white;
+    margin-left: 1vw;
+}
+.foot-contact-link{
+    height: 5vh;
+    width: 11vw;
+    margin-left: 14vw;
+}
+#foot-text13{
+    height: 3vh;
+    width: 5vw;
+    background-color: rgb(236, 94, 113);
+    text-decoration: none;
+    color: white;
+    padding: 1.2vh 1vw;
+    font-size: 1.2em;
+    border-radius: 0.5vh;
+}
+.contact{
+    height: 15vh;
+    background-color: rgb(64, 64, 67);
+}
+
+.contact-Info{
+    height: 12vh;
+    margin: 0 9vw;
+    padding: 2.2vh 1vw;
+
+}
+
+
+/* contact-footer */
+.contact-Info-internal {
+    padding: 0px;
+    margin: 0px;
+    flex-basis: auto;
+    width: 100%;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.contact-img-internal{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    -webkit-box-align: start;
+    align-items: start;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    padding: 0px;
+    margin: 0px;
+}
+.complete-svj {
+    display: inline-block;
+    text-align: center;
+    color: rgba(188, 192, 196, 0.74);
+    text-decoration: none;
+    cursor: pointer;
+}
+.svj-component{
+    display: inline-block;
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+}
+.svj-text{
+    color: currentcolor;
+    text-align: inherit;
+    line-height: 18px;
+    width: auto;
+    padding: 0px;
+    margin: 10px 0px 0px;
+    flex-basis: auto;
+    font-size: 11px;
+}
+.complete-svj svg {
+    fill: rgb(198, 198, 199);
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.dev_contact_container{
+    height: 33vh;
+    width: auto;
+    background-color: rgb(51, 51, 56);
+    display: flex;
+    flex-direction: column;
+    padding: 0 5vh 3vh 5vh;
+    margin-top: 3vh;
+}
+.dev_contact{
+    height: 100%;
+}
+.foot_logo{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dev_contact_line{
+    flex: 1 0%;
+    height: 0.3vh;
+    background-color: rgb(93, 93, 95);
+}
+
+#foot_logo{
+    width: 10vw;
+    height: 8vh;
+}
+
+.contact_link{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_link_svg{
+    width: 5vh;
+    margin: 0 1vh;
+}
+
+#contact_link_svg{
+    fill: rgb(93, 93, 95);
+}
+
+#contact_link_svg:hover{
+    fill: white;
+}

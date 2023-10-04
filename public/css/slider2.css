@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+body {
+    font-family: "Inter", sans-serif;
+}
+.baba {
+    position: relative;
+    direction: ltr;
+    margin-left: 3.1vw;
+    margin-right: 3.1vw;
+}
+.baba .carousel {
+    height: 60vh;
+    width: 50vw;
+    margin: 5px auto;
+    background: transparent;
+    /* border: 1px solid salmon; */
+    /* border-radius: 1.5vh; */
+    position: relative;
+    overflow: hidden;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {.baba .carousel  {
+        width: 80%;
+    }}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {.baba .carousel{
+        width: 80%;
+    }}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {.baba .carousel{
+        width: 80%;
+    }}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {.baba .carousel{
+        width: 84%;
+    }}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {.baba .carousel{
+        width: 83%;
+    }}
+
+.carousel .track {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    touch-action: none;
+    height: 100%;
+
+}
+.smooth-transition {
+    transition: all 1s;
+}
+.carousel .track .card {
+    height: 57vh;
+    width: 14.5vw;
+    background: transparent;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.nav .arrow {
+    width: 1.5vw;
+    height: 2vh;
+    border: 1px solid #94929217;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.nav div{
+    background: rgb(156, 156, 156);
+}
+.nav div:hover{
+    background: rgba(94, 94, 94, 0.404);
+}
+.nav div span{
+    font-size: 1em;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav .right {
+    right: 0;
+    margin-right: 6.8vw;
+    margin-top: -6vh;
+}
+
+.nav .left {
+    left: 0;
+    /*display: none;*/
+    pointer-events: none;
+    margin-left: 6.5vw;
+    margin-top: -6vh;
+}
+.nav .right.hide {
+    display: none;
+}
+.nav .right.lock {
+    pointer-events: none;
+}
+
+
+.nav .right.show {
+    display: block;
+}
+.nav .left.show {
+    pointer-events: auto;
+}
+
+.Slider12{
+    height: 48vh;
+    width: 14.5vw;
+    border-radius: 1vh;
+    margin-bottom: 1vh;
+}
+
+/* .Slider22{
+    height: 48vh;
+    width: 14.5vw;
+    border-radius: 1vh;
+    margin-bottom: 1vh;
+} */
+
+.lebname{
+    margin-bottom: .5vh;
+}
+#book{
+    text-decoration: none;
+}
+.leb-name{
+    margin: 1vh 0;
+}
+#name-mov{
+    margin-top: 1vh;
+    background-color: transparent;
+    color: black;
+    font-size: 1.24vw;
+    font-weight: 550;
+}
+
+#joner{
+    margin-top: 5vh;
+    /* height: 4vh; */
+    font-size: 2.3vh;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}

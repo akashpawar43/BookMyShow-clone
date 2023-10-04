@@ -1,0 +1,189 @@
+<div class="navbar">
+    <div class="nav1">
+        <div class="navlogo"></div>
+        <div class="searchbar">
+            <div class="searchpng"></div>
+            <input type="text" placeholder="Search for Movies,Events,Plays,Sports and Activities">
+        </div>
+        <!-- &#9660; for dropdown arrow -->
+        <div class="box12">
+            <div class="dropdown">
+                <button class="dropbtn">Location <i class="fas fa-caret-down"></i></button>
+                <!-- <div class="downarrow"></div> -->
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <div class="signin">
+                <button id="signin">sign in</button>
+            </div>
+            <div class="container" id="ham" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="nav2">
+        <div class="nav2box1">
+            <ul>
+                <li><a href="/movies">Movies</a></li>
+                <li><a href="/stream">Stream</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Plays</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Activities</a></li>
+                <li><a href="#">Buzz</a></li>
+            </ul>
+        </div>
+        <div class="nav2box2">
+            <ul>
+                <li><a href="/ListYourShow">ListYourShow</a></li>
+                <li><a href="#">Corporates</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Gift Cards</a></li>
+            </ul>
+        </div>
+    </div>
+    <form action="/process-signup-form" method="post" class="signup-form form_hidden " id="signup-form">
+        <div class="link_ac_text">
+            <div class="signup_text_top">
+                <p id="link_ac_text">Get Started</p>
+            </div>
+            <div class="signup_text_cross">
+                <p id="cancel">X</p>
+            </div>
+        </div>
+        <div class="link_ac" id="link_google">
+            <a class="link_acc"  href="">Continue with Google</a>
+        </div>
+        <div class="link_ac" id="link_email">
+            <a class="link_acc"  href="">Continue with Email</a>
+        </div>
+        <div class="link_ac" id="link_apple">
+            <a class="link_acc"  href="">Continue with Apple</a>
+        </div>
+        <div class="link_text_or">
+            <p id="link_txt_or">OR</p>
+        </div>
+        <div class="input_p_num">
+            <p id="p_code">+91</p>
+            <div class="phone_num">
+                <input type="number" id="phone_num" name="phone" placeholder="Continue with mobile number">
+            </div>
+        </div>
+        <div class="btn_signup_form">
+            <button id="singnup" type="submit">
+                Continue
+            </button>
+        </div>
+    </form>
+    <form action="/process-signup-form" method="post" id="email_signup" class="email_signup form_hidden">
+        <div class="cont_email_signup">
+            <div class="redirect_signup">
+                <a id="backto_signup" href="">back</a>
+            </div>
+            <div class="signup_email_text">
+                <p id="signup_email_text">Login with Email</p>
+            </div>
+            <div class="signup_email_input">
+                <p id="email_text">Email</p>
+                <input type="email" name="email" id="email_input">
+            </div>
+            <div class="signup_email_input">
+                <p id="email_text">Password</p>
+                <input type="password" name="password" id="email_input">
+            </div>
+            <div class="btn_signup_form">
+                <button id="singnup" type="submit">
+                    Continue
+                </button>
+            </div>
+        </div>
+    </form>
+    <div class="hamburg form_hidden" id="ham_burg">
+        <div class="trans"></div>
+        <div class="ham_menu_nav">
+            <div class="head_top">
+                <p>Hey!</p>
+                <a href="/">
+                    <i class="fa-solid fa-xmark"></i>
+                </a>
+            </div>
+            <div class="ham_signup_redirect">
+                <div class="ham_acc_logo">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="ham_acc_register_text">
+                    Unlock special offers & great benefits
+                </div>
+                <div class="ham_acc_log_btn">
+                    <button id="ham_acc_log_btn">
+                        login / Register
+                    </button>
+                </div>
+            </div>
+            <div class="ham_card">
+                <div class="ham_card_icon_text">
+                    <i class="fa-regular fa-bell"></i>
+                    <div class="ham_card_text">
+                       <a href="">Notification</a>
+                    </div>
+                </div>
+                <div class="ham_card_process"></div>
+            </div>
+            <div class="ham_card">
+                <div class="ham_card_icon_text">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <div class="ham_card_text">
+                        <a href="">Your Order</a>
+                        <a href="">View all your booking & purchases</a>
+                    </div>
+                </div>
+                <div class="ham_card_process"></div>
+            </div>
+            <div class="ham_card">
+                <div class="ham_card_icon_text">
+                    <i class="fa-brands fa-cc-amazon-pay"></i>
+                    <div class="ham_card_text">
+                        <a href="">Play Credit Card</a>
+                        <a href="">View your Play Credit Card details & offer</a>
+                    </div>
+                </div>
+                <div class="ham_card_process"></div>
+            </div>
+            <div class="ham_card">
+                <div class="ham_card_icon_text">
+                    <i class="fa-regular fa-comment"></i>
+                    <div class="ham_card_text">
+                        <a href="">Help & Support</a>
+                        <a href="">View commonly asked queries and Chat</a>
+                    </div>
+                </div>
+                <div class="ham_card_process"></div>
+            </div>
+            <div class="ham_card">
+                <div class="ham_card_icon_text">
+                    <i class="fa-solid fa-gear"></i>
+                    <div class="ham_card_text">
+                        <a href="">Account & Settings</a>
+                        <a href="">Location, Payment, Permissions & More</a>
+                    </div>
+                </div>
+                <div class="ham_card_process"></div>
+            </div>
+            <div class="ham_card">
+                <div class="ham_card_icon_text">
+                    <i class="fa-solid fa-gift"></i>
+                    <div class="ham_card_text">
+                        <a href="">Rewards</a>
+                        <a href="">View uour rewards % unlock new ones</a>
+                    </div>
+                </div>
+                <div class="ham_card_process"></div>
+            </div>
+        </div>
+    </div>
+</div>

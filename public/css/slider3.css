@@ -1,0 +1,108 @@
+#container {
+    height: 30vh;
+    width: 70vw;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    display: grid ;
+    place-items: center
+  }
+  
+  #slider-container {
+    height: 25vh;
+    width: 78vw;
+    max-width: 1400px;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+    /* padding: 0 20px 20px 20px; */
+    padding: 11px 0px 18px 25px;
+    margin-left: 2vw;
+  }
+  
+  #slider-container .btn {
+    position: absolute;
+    top: calc(50% - 30px);
+    height: 15px;
+    width: 15px;
+    border-left: 8px solid pink;
+    border-top: 8px solid pink;
+  }
+  
+  #slider-container .btn:hover {
+    transform: scale(1.2);
+  }
+  
+  #slider-container .btn.inactive {
+    border-color: rgb(153, 121, 126)
+  }
+  
+  #slider-container .btn:first-of-type {
+    transform: rotate(-45deg);
+    left: 10px
+  }
+  
+  #slider-container .btn:last-of-type {
+    transform: rotate(135deg);
+    right: 10px;
+  }
+  
+  #slider-container #slider {
+    display: flex;
+    width: 781%;
+    height: 100%; 
+    transition: all .5s;
+    margin-right: 10vh;
+  }
+  
+  #slider-container #slider .slide {
+    height: 100%;
+    margin: auto 10px;
+    background-color: transparent;
+    /* box-shadow: 2px 2px 4px 2px white, -2px -2px 4px 2px white; */
+    display: grid;
+    place-items: center;
+  }
+  
+  #slider-container #slider .slide span {
+    color: white;
+    font-size: 150px;
+  }
+  
+  @media only screen and (min-width: 1100px) {
+  
+    #slider-container #slider .slide {
+      width: calc(2.5% - 20px);
+    }
+  
+  }
+  
+  @media only screen and (max-width: 1100px) {
+  
+    #slider-container #slider .slide {
+      width: calc(3.3333333% - 20px);
+    }
+  
+  }
+  
+  @media only screen and (max-width: 900px) {
+  
+    #slider-container #slider .slide {
+      width: calc(5% - 20px);
+    }
+  
+  }
+  
+  @media only screen and (max-width: 550px) {
+  
+    #slider-container #slider .slide {
+      width: calc(10% - 20px);
+    }
+  
+  }
+
+#slide-liv{
+    height: 26vh;
+    background-size: contain;
+    border-radius: 2vh;
+}

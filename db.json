@@ -1,0 +1,203 @@
+// carousel.create([
+//     {
+//         imgUrl:'/static/images/banner1.png'
+//     },
+//     {
+//         imgUrl:'/static/images/banner2.png'
+//     },
+//     {
+//         imgUrl:'/static/images/banner3.png'
+//     },
+//     {
+//         imgUrl:'/static/images/banner4.png'
+//     },
+// ])
+
+
+// Slider.create([
+//     {
+//         id: "1",
+//         ImgUrl: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC44LzEwICAxMTYuNUsgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00037264-njdelwmrpl-portrait.jpg",
+//         trailer_img: "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/avatar-the-way-of-water-et00037264-1670850986.jpg",
+//         nam_movie: 'Avtar:The Way of Water',
+//         jonar: 'Action/Adventure/Fantasy/Sci-Fi',
+//         mov_rating: "8.9/10",
+//         mov_votes: "174.3K",
+//         dimention: "2D,3D,3D SCREEN X,4DX 3D,IMAX 3D",
+//         lang: "English,Kannada,Malayalam,Tamil,Telugu,Hindi",
+//         watch_time:"3h 12m",
+//         bg_img:"https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/avatar-the-way-of-water-et00037264-1670850986.jpg"
+//     },
+//     {
+//         id: "2",
+//         ImgUrl: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC43LzEwICA1Ny44SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00310792-jbpypqdtub-portrait.jpg",
+//         trailer_img: "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/black-panther-wakanda-forever-et00310792-1666006244.jpg",
+//         nam_movie: 'Black Panther:Wakanda...',
+//         jonar: 'Action/Adventure/Drama',
+//         mov_rating: "8.7/10",
+//         mov_votes: "58.5K",
+//         dimention: "2D,3D,3D SCREEN X,4DX 3D,IMAX 3D",
+//         lang: "English,Tamil,Telugu,Hindi",
+//         watch_time:"2h 44m",
+//         bg_img:"https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/black-panther-wakanda-forever-et00310792-1666006244.jpg"
+//     },
+//     {
+//         id: "3",
+//         ImgUrl: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC45LzEwICAxMDIuNEsgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00331997-lmpkuaycqf-portrait.jpg",
+//         trailer_img: "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/drishyam-2-et00331997-1667547668.jpg",
+//         nam_movie: 'Drishyam 2',
+//         jonar: 'Drama/Mystery/Thriller',
+//         mov_rating: "8.9/10",
+//         mov_votes: "109.2K",
+//         dimention: "2D",
+//         lang: "Hindi",
+//         watch_time:"2h 20m",
+//         bg_img:"https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/drishyam-2-et00331997-1667547668.jpg"
+//     },
+//     {
+//         id: "4",
+//         ImgUrl: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC44LzEwICAyLjNLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00343399-hjnayypkkz-portrait.jpg",
+//         trailer_img: "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/aum-mangalam-singlem-et00343399-1667194163.jpg",
+//         nam_movie: 'Aum Mangalam Singlem',
+//         mov_rating: "8.8/10",
+//         mov_votes: "2.6K",
+//         dimention: "2D",
+//         lang: "Gujarati",
+//         watch_time:"2h 54m",
+//         bg_img:"https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/aum-mangalam-singlem-et00343399-1667194163.jpg"
+//     },
+//     {
+//         id: "5",
+//         ImgUrl: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny45LzEwICBOZXcgUmVsZWFzZQ%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00342968-ekwayunwgs-portrait.jpg",
+//         trailer_img: "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/big-dhamaka-et00342968-1666345523.jpg",
+//         nam_movie: 'Big Dhamaka',
+//         jonar: 'Action/Comedy/Drama',
+//         mov_rating: "7.4/10",
+//         mov_votes: "1.8K",
+//         dimention: "2D",
+//         lang: "Hindi",
+//         watch_time:"2h 19m",
+//         bg_img:"https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/big-dhamaka-et00342968-1666345523.jpg"
+//     },
+//     {
+//         id: "6",
+//         ImgUrl: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC40LzEwICAxNy43SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00335262-ygbjbqsahx-portrait.jpg",
+//         trailer_img: "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/uunchai-et00335262-1665386678.jpg",
+//         nam_movie: 'Uunchai',
+//         jonar: 'Adventure/Drama/Family',
+//         mov_rating: "8.4/10",
+//         mov_votes: "18.3K",
+//         dimention: "2D",
+//         lang: "Hindi",
+//         watch_time:"2h 49m",
+//         bg_img:"https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/uunchai-et00335262-1665386678.jpg"
+//     },
+//     {
+//         id: "7",
+//         ImgUrl: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC44LzEwICAxLjRLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00348454-aaptlphque-portrait.jpg",
+//         trailer_img: "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/hit-the-2nd-case-hindi-et00348454-1672045342.jpg",
+//         nam_movie: 'HIT: The 2nd Case (Hindi)',
+//         jonar: 'Crime/Mystry/Thriller',
+//         mov_rating: "8.8/10",
+//         mov_votes: "1.4K",
+//         dimention: "2D",
+//         lang: "Hindi",
+//         watch_time:"2h",
+//         bg_img:"https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/hit-the-2nd-case-hindi-et00348454-1672045342.jpg"
+//     },
+//     {
+//         id: "8",
+//         ImgUrl: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny44LzEwICAzNi4xSyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00312739-twjrkftutt-portrait.jpg",
+//         trailer_img: "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/bhediya-et00312739-1669100599.jpg",
+//         nam_movie: 'Bhediya',
+//         jonar: 'Comedy/Thriller',
+//         mov_rating: "7.8/10",
+//         mov_votes: "37.9K",
+//         dimention: "2D,3D",
+//         lang: "Hindi",
+//         watch_time:"2h 36m",
+//         bg_img:"https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/bhediya-et00312739-1669100599.jpg"
+//     },
+//     {
+//         id: "9",
+//         ImgUrl: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ni42LzEwICAyLjZLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00345156-hgsdravwle-portrait.jpg",
+//         trailer_img: "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/connect-hindi-et00348709-1672228648.jpg",
+//         nam_movie: 'Connect',
+//         jonar: 'Horror/Thriller',
+//         mov_rating: "6.8/10",
+//         mov_votes: "304",
+//         dimention: "2D",
+//         lang: "Hindi",
+//         watch_time:"1h 39m",
+//         bg_img:"https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/big-dhamaka-et00342968-1666345523.jpg"
+//     },
+//     {
+//         id: "10",
+//         ImgUrl: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS4yLzEwICAxMDAuOEsgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00342025-frzljgfawp-portrait.jpg",
+//         trailer_img: "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/kantara-hindi-et00342025-1665304124.jpg",
+//         nam_movie: 'Kantara(Hindi)',
+//         jonar: 'Adventure/Drama/Thriller',
+//         mov_rating: "9.2/10",
+//         mov_votes: "101 .4K",
+//         dimention: "2D",
+//         lang: "Hindi",
+//         watch_time:"2h 30m",
+//         bg_img:"https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/kantara-hindi-et00342025-1665304124.jpg"
+//     },
+// ])
+
+
+// Ev_slider.create([
+//     {
+//         ImgUrl:'https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MjUrIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/comedy-shows-collection-202211140440.png'
+//     },
+//     {
+//         ImgUrl:'https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/music-shows-collection-202211140440.png'
+//     },
+//     {
+//         ImgUrl:'https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-OCBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/esports-collection-202211140440.png'
+//     },
+//     {
+//         ImgUrl:'https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MSBFdmVudA%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/arts-crafts-collection-202211140440.png'
+//     },
+//     {
+//         ImgUrl:'https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NSBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/interactive-games-collection-202211140440.png'
+//     },
+//     {
+//         ImgUrl:'https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MiBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/upskill-collection-202211140440.png'
+//     },
+//     {
+//         ImgUrl:'https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-ODArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/theatre-shows-collection-202211140440.png'
+//     },
+//     {
+//         ImgUrl:'https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MzUrIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/adventure-fun-collection-202211140440.png'
+//     },
+// ])
+
+
+// movies.create([
+//     {
+//         Imgurl:'https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS42LzEwICAxMy41SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00343245-dsuznechph-portrait.jpg',
+//         title:'Ved',
+//         label:"UA",
+//         lang:"Marathi"
+//     },
+//     {
+//         Imgurl:'https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC43LzEwICAxNjkuNEsgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00037264-njdelwmrpl-portrait.jpg',
+//         title:'Avtar:The Way of Water',
+//         label:"UA",
+//         lang:"English,Hindi,Tamil,Telugu"
+//     },
+//     {
+//         Imgurl:'https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-NS4xLzEwICAyNC45SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00145851-rwxeypugtu-portrait.jpg',
+//         title:'Cirkus',
+//         label:"UA",
+//         lang:"Hindi"
+//     },
+//     {
+//         Imgurl:'https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC45LzEwICAxMDlLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00331997-lmpkuaycqf-portrait.jpg',
+//         title:'Drishym 2',
+//         label:"UA",
+//         lang:"Hindi"
+//     },
+// ])

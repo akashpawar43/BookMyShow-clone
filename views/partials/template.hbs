@@ -1,0 +1,104 @@
+<div class="container1">
+    <div class="cont1">
+        <div class="cont11">
+            <h4>Fliters</h4>
+            <div class="container2">
+                <button class="btn" id="btn">
+                    <i class="bx bx-chevron-down" id="arrow2"></i>
+                    Language
+                </button>
+
+                <div class="dropdown2 container-wrapper" id="dropdown2">
+                    <div class="filter2">
+                        <a id="filter_text" href="#create">Marathi</a>
+                    </div>
+                    <div class="filter2">
+                        <a id="filter_text" href="#draft">English</a>
+                    </div>
+                    <div class="filter2">
+                        <a id="filter_text" href="#move">Hindi</a>
+                    </div>
+                    <div class="filter2">
+                        <a id="filter_text" href="#profile">Bengali</a>
+                    </div>
+                    <div class="filter2">
+                        <a id="filter_text" href="#notification">Telugu</a>
+                    </div>
+                    <div class="filter2">
+                        <a id="filter_text" href="#settings">Gujarati</a>
+                    </div>
+                    <div class="filter2">
+                        <a id="filter_text" href="#settings">Tamil</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cont2">
+        <div class="cont21">
+            <h4>Movies In Mumbai</h4>
+
+            <div class="cont22">
+                <div class="filter-box">
+                    <a id="filter_text" href="#create">Marathi</a>
+                </div>
+                <div class="filter-box">
+                    <a id="filter_text" href="#draft">English</a>
+                </div>
+                <div class="filter-box">
+                    <a id="filter_text" href="#move">Hindi</a>
+                </div>
+                <div class="filter-box">
+                    <a id="filter_text" href="#profile">Bengali</a>
+                </div>
+                <div class="filter-box">
+                    <a id="filter_text" href="#notification">Telugu</a>
+                </div>
+                <div class="filter-box">
+                    <a id="filter_text" href="#settings">Gujarati</a>
+                </div>
+                <div class="filter-box">
+                    <a id="filter_text" href="#settings">Tamil</a>
+                </div>
+            </div>
+            <div class="cont23">
+                <div class="coming_soon_img">
+                    <img id="comming_soon_img"
+                        src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/coming-soon-web-collection-202012090733.png"
+                        alt="">
+                </div>
+            </div>
+            <div class="contai1">
+                <div class="contai1-wrapper">
+                    {{#each slider}}
+                    <div class="card2">
+                        <a id="book" href="/book/{{this.id}}">
+                            <div class="movies_imgurl">
+                                <img id="movies_imgurl" src="{{this.ImgUrl}}" alt="">
+                            </div>
+                            <div class="mov_img_info">
+                                <div class="movies_title">
+                                    <h3 id="">{{this.nam_movie}}</h3>
+                                </div>
+                                <div class="movies_label_lang">
+                                    <p id="mov_label">UA</p>
+                                </div>
+                                <div class="movies_lang">
+                                    <p id="lang">{{this.lang}}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="home_redirect">
+    <div class="cont3">
+        <a id="navlink" href="/">Home</a>
+        <a id="navlink" href="">&#8594;</a>
+        <a id="navlink" href="/movies">Movies</a>
+    </div>
+</div>

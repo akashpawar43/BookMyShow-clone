@@ -1,0 +1,20 @@
+<div class="live">
+<div class="live-text">
+    <label for="" id="live-ev">The Best of Live Events</label>
+</div>
+<div id="container">
+    <div id="slider-container">
+        <span onclick="slideRight()" class="btn"></span>
+        <div id="slider">
+            {{#each ev_slider}}
+            <div class="slide">
+                <img id="slide-liv"
+                    src="{{this.ImgUrl}}"
+                    alt="">
+            </div>
+            {{/each}}
+        </div>
+        <span onclick="slideLeft()" class="btn"></span>
+    </div>
+</div>
+</div>

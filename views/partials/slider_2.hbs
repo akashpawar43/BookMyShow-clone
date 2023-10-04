@@ -1,0 +1,25 @@
+<div class="baba">
+    <div class="carousel">
+        <div class="track">
+            {{#each slider}}
+            <div class="card">
+                <div class="acher">
+                    <a id="book" href="/book/{{this.id}}">
+                        <img class="Slider12" src="{{this.ImgUrl}}">
+                        <div class="leb-name">
+                            <label for="name-mov" id="name-mov">{{this.nam_movie}}</label>
+                        </div>
+                        <div class="leb-jo">
+                            <label for="joner" id="joner">{{this.jonar}}</label>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+    <div class="nav">
+        <div class="arrow right material-icons"><span>keyboard_arrow_right</span></div>
+        <div class="arrow left material-icons"><span>keyboard_arrow_left</span></div>
+    </div>
+</div>
