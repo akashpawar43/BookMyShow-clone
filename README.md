@@ -10,6 +10,10 @@
 4. node.js
 6. MongoDB
 
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://akashpawardev.netlify.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akashpawar23/)
+
 
 ## Instructions to Run the Code 
 
@@ -43,7 +47,7 @@ If you want to run the latest code from git, here's how to get started:
 
 <img src="https://github.com/akashpawar43/BookMyShow-clone/blob/main/public/images/website1.png" alt="project-screenshot" >
 
-<img src="https://github.com/akashpawar43/BookMyShow-clone/blob/main/public/images/website2.png" alt="project-screenshot" >
+<img src="https://github.com/akashpawar43/BookMyShow-clone/blob/main/public/images/website_2.png" alt="project-screenshot" >
 
 <img src="https://github.com/akashpawar43/BookMyShow-clone/blob/main/public/images/website3.png" alt="project-screenshot" >
 
